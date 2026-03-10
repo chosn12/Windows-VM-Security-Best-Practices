@@ -3,6 +3,9 @@
 ## 1. Update Windows Completely
   - Settings -> Update & Security
 
+<img width="600" height="500" alt="Windows Update" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/"/>
+
+
   
 ## 2. Enable Windows Defender:
   - Turn on  Real- time protecton
