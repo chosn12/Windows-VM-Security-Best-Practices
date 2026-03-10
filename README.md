@@ -42,10 +42,9 @@
     - Navigate to the Scope tab.
     - Under Remote IP address, change it from **"Any IP address" to These IP addresses.**
     - Click Add... and enter 127.0.0.1 (or click "Add", then "This IP address" and enter 127.0.0.1)
-  - **Save Changes:**
     -  Click **Apply** and **OK**.
    
-    
+      
 <img width="600" height="500" alt="RDP Disabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
   
 ## 5. Disable SMBv1:
