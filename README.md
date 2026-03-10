@@ -35,3 +35,11 @@
    *` Disable-WindowsOptionalFeature-Online-FeatureName SMB1Protocol`*  
 
    <img width="800" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/9522059e32275001a9ba6ef187838b46bb326860/doc/screenshots/SMB1%20Status.png"/>
+
+
+## 6. Policy Export
+  - cmd
+
+    *` gpresult /h report.html`*
+
+     <img width="800" height="500" alt="Windows11-VM" src=""/>
