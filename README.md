@@ -6,8 +6,10 @@
   
 ## 2. Enable Windows Defender:
   - Turn on  Real- time protecton
-  
   - Turn on cloud protection
+
+<img width="800" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/358825bdcf5b374bc7f5ae86563976f0bbd88fbe/doc/screenshots/Enable%20Defender.png" />
+
 
   
 ## 3. Local Policy Hardening
@@ -17,6 +19,8 @@
     - 12-char minimum
     - 365-day max age
 
+
+<img width="800" height="500" alt="Windows11-VM" src="" />
 
     
 ## 4. Firewall:
@@ -29,3 +33,5 @@
   - PowerShell
 
    *` Disable-WindowsOptionalFeature-Online-FeatureName SMB1Protocol`*  
+
+   <img width="800" height="500" alt="Windows11-VM" src="" />
