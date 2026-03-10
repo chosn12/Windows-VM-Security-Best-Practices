@@ -24,10 +24,10 @@
 
     
 ## 4. Firewall:
-  - Block inbound RDP(3389) except localhost
-  - Enable Logging
+  1. Block inbound RDP(3389) except localhost
+  2. Enable Logging
 
-## **Disable** RDP(3389) except for localhost:
+## **Block** inbound RDP(3389) except for localhost:
   - **Open Advanced Firewall:**
     
        `Press Win + R, type wf.msc`
@@ -42,11 +42,14 @@
     - Navigate to the Scope tab.
     - Under Remote IP address, change it from **"Any IP address" to These IP addresses.**
     - Click Add... and enter 127.0.0.1 (or click "Add", then "This IP address" and enter 127.0.0.1)
-    -  Click **Apply** and **OK**.
+    - Click **Apply** and **OK**.
    
-      
+ ***RDP(3389) is now disabled, except for localhost(127.0.0.1)***     
 <img width="600" height="500" alt="RDP Disabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
-  
+
+
+## Enable Logging:
+  -
 ## 5. Disable SMBv1:
   - PowerShell
 
