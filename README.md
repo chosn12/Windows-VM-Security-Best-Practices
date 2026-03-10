@@ -8,7 +8,7 @@
   - Turn on  Real- time protecton
   - Turn on cloud protection
 
-<img width="600" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/358825bdcf5b374bc7f5ae86563976f0bbd88fbe/doc/screenshots/Enable%20Defender.png"/>
+<img width="600" height="500" alt="Enable Defender" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/358825bdcf5b374bc7f5ae86563976f0bbd88fbe/doc/screenshots/Enable%20Defender.png"/>
 
 
   
@@ -20,7 +20,7 @@
     - Set maximum password age to **365-day max age**
 
 
-<img width="600" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/a6ac530be79de1dea876e90391ab9924c7f6634a/doc/screenshots/Local%20Policy%20Hardening.png"/>
+<img width="600" height="500" alt="Policy Hardening" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/a6ac530be79de1dea876e90391ab9924c7f6634a/doc/screenshots/Local%20Policy%20Hardening.png"/>
 
     
 ## 4. Firewall:
@@ -43,6 +43,9 @@
     - Under Remote IP address, change it from **"Any IP address" to These IP addresses.**
     - Click Add... and enter 127.0.0.1 (or click "Add", then "This IP address" and enter 127.0.0.1)
     - Save Changes: Click **Apply** and **OK**.
+   
+    
+<img width="600" height="500" alt="RDP Disabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
   
 ## 5. Disable SMBv1:
   - PowerShell
@@ -52,7 +55,7 @@
 This command displays the status of SMB1.
 
 
-<img width="600" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/9522059e32275001a9ba6ef187838b46bb326860/doc/screenshots/SMB1%20Status.png"/>
+<img width="600" height="500" alt="SMB status" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/9522059e32275001a9ba6ef187838b46bb326860/doc/screenshots/SMB1%20Status.png"/>
 
 
 
@@ -61,6 +64,6 @@ This command displays the status of SMB1.
 
     *` gpresult /user UserA /scope computer /r `*
     
-<img width="600" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/20479762a72b27f0f9777f44701b4387ca56cd49/doc/screenshots/Policy%20Export.png"/>
+<img width="600" height="500" alt="Policy Export" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/20479762a72b27f0f9777f44701b4387ca56cd49/doc/screenshots/Policy%20Export.png"/>
 
      
