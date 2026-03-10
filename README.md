@@ -99,12 +99,12 @@ This command displays the status of SMB1.
 
 - cmd
   
-  *`gpresult /h report.html` 
+  *`gpresult /h report.html`* 
 
 May give you an error of ***No RSoP data for user*** 
 
 - cmd
 
-  ` gpresult /user UserA /scope computer /r `
+  *` gpresult /user UserA /scope computer /r `*
 
-Gives a general summary of the policy*
+Gives a general summary of the policy
