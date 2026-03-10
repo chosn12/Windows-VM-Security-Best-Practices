@@ -25,9 +25,24 @@
     
 ## 4. Firewall:
   - Block inbound RDP(3389) except localhost
-    - Enable Logging
+  - Enable Logging
 
-
+## **Disable** RDP(3389) except for localhost:
+  - **Open Advanced Firewall:**
+    
+       `Press Win + R, type wf.msc`
+    
+    - Hit **Enter** to open the Windows Defender Firewall with Advanced Security console.
+    
+  - **Locate RDP Rule:**
+    - Click on Inbound Rules in the left pane.
+    - Find the rule named **Remote Desktop - User Mode (TCP-In).**
+  - **Restrict Scope:**
+    - Right-click the rule and select Properties.
+    - Navigate to the Scope tab.
+    - Under Remote IP address, change it from **"Any IP address" to These IP addresses.**
+    - Click Add... and enter 127.0.0.1 (or click "Add", then "This IP address" and enter 127.0.0.1)
+    - Save Changes: Click **Apply** and **OK**.
   
 ## 5. Disable SMBv1:
   - PowerShell
