@@ -97,4 +97,14 @@ This command displays the status of SMB1.
     
 <img width="600" height="500" alt="Policy Export" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/20479762a72b27f0f9777f44701b4387ca56cd49/doc/screenshots/Policy%20Export.png"/>
 
-     
+- cmd
+  
+  *`gpresult /h report.html` 
+
+May give you an error of ***No RSoP data for user*** 
+
+- cmd
+
+  ` gpresult /user UserA /scope computer /r `
+
+Gives a general summary of the policy*
