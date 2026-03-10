@@ -6,7 +6,7 @@
 <img width="600" height="500" alt="Windows Update" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/d63292b0e23386d7a12f89d016b1afbcee57ac9e/doc/screenshots/Windows%20Update.png"/>
 
 
-<img width="600" height="500" alt="Windows Security" src=""/>
+<img width="600" height="500" alt="Windows Security" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/a5b748c5a774e14d7ef910d40c7287aa375d9604/doc/screenshots/Windows%20Security.png"/>
 
   
 ## 2. Enable Windows Defender:
