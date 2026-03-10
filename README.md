@@ -56,7 +56,7 @@
   
 *Ensure auditing is enabled for important events by configuring Group Policy settings if necessary.*
 
-<img width="600" height="500" alt="Logging Enabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
+<img width="600" height="500" alt="Logging Enabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/cd2390d2859df001cb6da7f15b6e8dc6fcd6b649/doc/screenshots/Logging%20Enabled.png"/>
 
 
   - **Configuring Advanced Logging via Group Policy**
