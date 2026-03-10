@@ -1,16 +1,16 @@
-# Windows-VM-Security-Hardening
+# ‼️ Windows-VM-Security-Hardening
 
-### 1. Update Windows fully
+## 1. Update Windows Completely
   - Settings -> Update & Security
 
   
-### 3. Enable Windows Defender:
+## 2. Enable Windows Defender:
   - Turn on  Real- time protecton
   
   - Turn on cloud protection
 
   
-### 4. Local Policy Hardening
+## 3. Local Policy Hardening
   - Type **Run** into the search window and type `secpol.msc`
   - Click **Account Policies**
     - Set password complexity
@@ -19,13 +19,13 @@
 
 
     
-### 5. Firewall:
+## 4. Firewall:
   - Block inbound RDP(3389) except localhost
     - Enable Logging
 
 
   
-### 6. Disable SMBv1:
+## 5. Disable SMBv1:
   - PowerShell
 
    *` Disable-WindowsOptionalFeature-Online-FeatureName SMB1Protocol`*  
