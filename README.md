@@ -49,7 +49,27 @@
 
 
 ## Enable Logging:
-  -
+  - Type **Event Viewer** in the search bar.
+  - Select **Event Viewer** from the search results.
+  - In the left-hand menu, expand **Windows Logs**.
+  - Click on **Security** to view security-related logs.
+  
+*Ensure auditing is enabled for important events by configuring Group Policy settings if necessary.*
+
+<img width="600" height="500" alt="Logging Enabled" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
+
+
+  - **Configuring Advanced Logging via Group Policy**
+    - Open the **Run** dialog box.
+    - Type **gpedit.msc** and press Enter to open the **Group Policy Editor**.
+    - Navigate to **Computer Configuration** -> **Windows Settings** ->
+    - **Security Settings** -> **Advanced Audit Policy Configuration**  -> **Audit Policies**.
+    
+*Configure policies such as Audit Logon Events, Audit Account Management, and Audit Policy Change to enable detailed logging.*
+
+<img width="600" height="500" alt="Advanced Logging Config" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/e5eac36e1370f571d02814ed631eb10d542d008e/doc/screenshots/RDP%20Disabled.png"/>
+
+
 ## 5. Disable SMBv1:
   - PowerShell
 
