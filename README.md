@@ -61,6 +61,9 @@ This command displays the status of SMB1.
 <img width="600" height="500" alt="SMB status" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/9522059e32275001a9ba6ef187838b46bb326860/doc/screenshots/SMB1%20Status.png"/>
 
 
+***SMBv1 was already disabled. Use this command in PoweShell to disable if enabled:***
+
+*`Set-SmbServerConfiguration -EnableSMB1Protocol $false`*
 
 ## 6. Policy Export
   - cmd
