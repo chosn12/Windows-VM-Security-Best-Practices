@@ -40,6 +40,6 @@
 ## 6. Policy Export
   - cmd
 
-    *` gpresult /h report.html`*
+    *` gpresult /user UserA /scope computer /r `*
 
      <img width="800" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/20479762a72b27f0f9777f44701b4387ca56cd49/doc/screenshots/Policy%20Export.png"/>
