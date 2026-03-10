@@ -20,7 +20,7 @@
     - 365-day max age
 
 
-<img width="800" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/a6ac530be79de1dea876e90391ab9924c7f6634a/doc/screenshots/Local%20Policy%20Hardening.png"/>
+<img width="700" height="500" alt="Windows11-VM" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/a6ac530be79de1dea876e90391ab9924c7f6634a/doc/screenshots/Local%20Policy%20Hardening.png"/>
 
     
 ## 4. Firewall:
