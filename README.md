@@ -80,7 +80,7 @@
 
    *` Disable-WindowsOptionalFeature-Online-FeatureName SMB1Protocol`* 
 
-This command displays the status of SMB1.
+  This command displays the status of SMB1.
 
 
 <img width="600" height="500" alt="SMB status" src="https://github.com/chosn12/Windows-VM-Security-Best-Practices/blob/9522059e32275001a9ba6ef187838b46bb326860/doc/screenshots/SMB1%20Status.png"/>
@@ -101,10 +101,10 @@ This command displays the status of SMB1.
   
   *`gpresult /h report.html`* 
 
-May give you an error of ***No RSoP data for user*** 
+May give an error of ***No RSoP data for user*** 
 
 - cmd
 
   *` gpresult /user UserA /scope computer /r `*
-
-Gives a general summary of the policy
+  
+    - Gives a general summary of the policy
